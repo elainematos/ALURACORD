@@ -15,7 +15,7 @@
 - ``JavaScript``
 - ``VsCode``
 - ``React``
--``next``
+- ``next``
 
 ## Autores
 
