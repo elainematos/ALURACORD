@@ -24,4 +24,4 @@
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https:/).
-Você pode acessar os arquivos do projeto clicando [Aqui]( https://).
+Você pode acessar os arquivos do projeto clicando [Aqui](https://aluracord-tan-ten.vercel.app/chat).
