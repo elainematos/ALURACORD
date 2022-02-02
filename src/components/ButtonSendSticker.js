@@ -29,7 +29,7 @@ export function ButtonSendSticker(props) {
             filter: 'grayscale(0)',
           }
         }}
-        label="😋"
+        label="🤗"
         onClick={() => setOpenState(!isOpen)}
       />
       {isOpen && (
@@ -51,7 +51,7 @@ export function ButtonSendSticker(props) {
             boxShadow: 'rgba(4, 4, 5, 0.15) 0px 0px 0px 1px, rgba(0, 0, 0, 0.24) 0px 8px 16px 0px',
           }}
           onClick={() => setOpenState(false)}
-        >
+        >   
           <Text
             styleSheet={{
               color: appConfig.theme.colors.neutrals["000"],

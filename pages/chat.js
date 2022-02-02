@@ -7,9 +7,18 @@ import { ButtonSendSticker } from '../src/components/ButtonSendSticker';
 
 //Como fazer AJAX: https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6
 
-const SUPABASE_ANON_KEY = '';
-const SUPABASE_URL = '';
-const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+//const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+//const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+//const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+//const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+//const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+//const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseClient = createClient(supabaseUrl, supabaseKey);
+
+
 
 
 function escutaMensagensEmTempoReal(adicionaMensagem) {

@@ -6,7 +6,7 @@
 
 
 <h2 align="center"> Descrição do Projeto </h2>
-<p>Projeto desenvolvido na Imersão React, cujo objetivo e criar uma plataforma como a do Discord.
+<p>Projeto desenvolvido na Imersão React da @alura, com @omariosouto e @peas. Cujo objetivo e criar uma plataforma como a do Discord de envio e recebimento de mensagens em tempo real, salvas em banco de dados Supabase.
 </p>
 
 ## ✔️ Técnicas e tecnologias utilizadas
